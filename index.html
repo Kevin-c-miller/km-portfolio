@@ -11,14 +11,15 @@
       integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/utils.css">
     <script defer src="app.js"></script>
     <title>Kevin Miller</title>
   </head>
   <body id="home">
     <header class="hero">
       <div class="navbar top" id="navbar">
-        <h2 class="logo">KM</h2>
+        <h2 class="logo"><a href='#'>KM</a></h2>
         <nav>
           <ul>
             <li><a href="#about">About</a></li>
@@ -26,8 +27,9 @@
             <li><a href="#skills">Skills</a></li>
             <li><a href="#experience">Experience</a></li>
             <li><a href="#contact">Contact</a></li>
+            <li> <button class="btn">Download Resume</button></li>
           </ul>
-          <button id="resume">Download Resume</button>
+         
         </nav>
       </div>
       <div class="content">
@@ -39,7 +41,7 @@
           maxime natus fuga aspernatur accusantium incidunt consequatur earum?
           Repellendus alias officiis laboriosam minima doloremque.
         </p>
-        <a href="#about" class="btn" id="about">
+        <a href="#about"  class="btn">
           <i class="fas fa-chevron-right"></i>About Me
         </a>
       </div>
@@ -47,11 +49,11 @@
 
     <!-- About -->
     <main>
-      <section id="about" class="bg-light">
+      <section id="about" class="bg-light about-me">
         <div class="about-header">
-          <h2>About Me</h2>
+          <h2 class="about-header">About Me</h2>
         </div>
-        <div class="clearfix">
+        <div class="clearfix about-content">
           <img src="..." class="col-md-6 float-md-end mb-3 ms-md-3" alt="..." />
 
           <p>
@@ -121,7 +123,7 @@
       </section>
 
       <!-- Experience -->
-      <section id="experience">
+      <section id="experience" class="flex-columns flex-reverse">
         <div class="row">
             <div class="column">
               <div class="column-1">
@@ -145,17 +147,10 @@
       </section>
 
        <!-- contact -->
-       <section id="contact" class="contact flex-columns">
-        <div class="row">
-          <div class="column">
-            <div class="column-1">
-              <img src="./images/home/contact.jpg" alt="" />
-            </div>
-          </div>
-          <div class="column">
-            <div class="column-2 bg-light">
+       <section id="contact" class="contact bg-light">
+            <div class="form-container">
               <h2>Contact Me</h2>
-              <form action="" class="callback-form">
+              <form action="" class="contact-form">
                 <div class="form-control">
                   <label for="name"></label>
                   <input
@@ -183,16 +178,13 @@
                     placeholder="Leave a message"
                     ></textarea>
                 </div>
-
                 <input type="submit" value="Send" id="submit" class="btn" />
-              </form>
+              </form> 
             </div>
-          </div>
-        </div>
-      </section>
+        </section>
 
       <!-- Footer -->
-      <footer class="footer bg-dark">
+      <footer class="footer">
         <div class="social">
           <a href="#"><i class="fab fa-github fa-2x"></i></a>
           <a href="#"><i class="fab fa-linkedin fa-2x"></i></a>

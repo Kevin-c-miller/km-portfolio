@@ -332,6 +332,12 @@ a {
   padding: 2rem 0;
 }
 
+.tech-skills h2 {
+  color: #000;
+  margin-top: 20px;
+  padding: 10px;
+}
+
 .skills-bg {
   margin-top: 2rem;
   padding: 1rem;
@@ -353,69 +359,56 @@ a {
 
 /* Experience */
 .experience-section {
-  height: 100vh;
+  min-height: 100vh;
+}
+
+.experience-section h2 {
+  color: #57e0d3;
+  text-align: center;
+  margin: 30px;
+}
+
+.exp-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  color: #000;
+}
+
+.column-1 {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  width: 75%;
+  max-width: 900px;
+  margin: 0 20px;
+  text-align: center;
+}
+.column-1 h4 {
+  color: #57e0d3;
+  padding: 10px;
+  text-align: center;
+}
+
+.education-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-.experience-section h2 {
-  color: #57e0d3;
+.edu-section {
+  width: 60%;
+  color: #000;
+  border-radius: 10px;
+  border: 4px solid #57e0d3;
 }
 
-.exp-container {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  padding: 10px;
-}
-
-.company-div {
-  padding: 10px;
-  margin-top: 2, 5rem;
-}
-
-.company-div h5,
-h6 {
-  text-align: center;
-  color: #57e0d3;
-}
-
-.edu-div h5,
-h6 {
-  text-align: center;
-  color: #57e0d3;
-}
-
-.edu-div,
-.company-div {
-  max-width: 800px;
-}
-
-.exp-border {
-  border-bottom: 2px solid #57e0d3;
-  padding-bottom: 20px;
-}
-
-#zerto {
-  padding-top: 20px;
-  margin-top: 20px;
-}
-
-#umass {
+.school {
   border-top: 2px solid #57e0d3;
-  padding-top: 20px;
-}
-
-.column-1,
-.column-2 {
-  display: flex;
-  flex-direction: column;
-  padding: 30px;
-  width: 50%;
-  margin: 0 20px;
-  text-align: center;
+  padding: 10px;
 }
 
 /* contact */

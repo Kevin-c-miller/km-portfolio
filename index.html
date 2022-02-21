@@ -11,52 +11,60 @@
       integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="styles.css" />
-    <!-- JavaScript Bundle with Popper -->
+      <!-- JavaScript Bundle with Popper -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-
+    <link rel="stylesheet" href="styles.css" />
     <script defer src="app.js"></script>
     <title>Kevin Miller</title>
   </head>
 
   <body id="home">
+    <!-- Navbar -->
     <header class="hero">
-      <div class="navbar top" id="navbar">
-        <h2 class="logo"><a href='#'>KM</a></h2>
-        <nav>
-          <ul>
-            <li><a href="#about">About</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#experience">Experience</a></li>
-            <li><a href="#contact">Contact</a></li>
-            <li> <button class="btn">Download Resume</button></li>
-          </ul>
-         
-        </nav>
+      <div class="nav-bar top" id="navbar">
+        <div class="nav-container" id="navbar">
+          <nav class="navbar navbar-expand-lg navbar-dark">
+            <a class="navbar-brand" href="#">KM</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav">
+                <a class="nav-item nav-link" href="#about">About</a>
+                <a class="nav-item nav-link" href="#projects">Projects</a>
+                <a class="nav-item nav-link" href="#skills">Skills</a>
+                <a class="nav-item nav-link" href="#experience">Experience</a>
+                <a class="nav-item nav-link" href="#contact">Contact</a>
+              </div>
+            </div>
+          </nav>
+        </div>
       </div>
-      <div class="about-me-hero">
-        <h1>Kevin Miller</h1>
-            <div class="card about-me">
-                <div class="overlay">
-                    <div class="about-content">
-                       <h5>Front end software engineer</h5>
-                       <div class="about-tech">
-                           <ul class="icons">
-                               <li><img src='./images/technologies/html.png' alt='html icon' class='tech-icons'/></li>
-                               <li><img src='./images/technologies/css.png' alt='css icon' class='tech-icons' /></li>
-                               <li><img src='./images/technologies/js.png' alt='javascript icon' class='tech-icons'/></li>
-                               <li><img src='./images/technologies/react.png' alt='react icon' class='tech-icons'/></li>
-                           </ul>
-                       </div>
+  
+      <!-- Landing Page/Intro Section -->
+        </div>
+          <div class="about-me-hero">
+            <h1>Kevin Miller</h1>
+                <div class="card about-me">
+                    <div class="overlay">
+                        <div class="about-content">
+                          <h5>Front end software engineer</h5>
+                          <div class="about-tech">
+                              <ul class="icons">
+                                  <li><img src='./images/technologies/html.png' alt='html icon' class='tech-icons'/></li>
+                                  <li><img src='./images/technologies/css.png' alt='css icon' class='tech-icons' /></li>
+                                  <li><img src='./images/technologies/js.png' alt='javascript icon' class='tech-icons'/></li>
+                                  <li><img src='./images/technologies/react.png' alt='react icon' class='tech-icons'/></li>
+                              </ul>
+                          </div>
+                        </div>
                     </div>
-                </div>
-          </div>
-          <div class="about">
-            <h5>Software engineer focusing on building things for the web with React
-            </h5>
-          </div>
-      </div>
+              </div>
+            <div class="about">
+              <h5>Software engineer focusing on building things for the web with React
+              </h5>
+            </div>
+        </div>
     </header>
     
     <!-- Summary -->
@@ -316,7 +324,6 @@
                 <div class="form-control">
                   <label for="name"></label>
                   <input
-                    autoFocus
                     type="name"
                     name="name"
                     id="name"
@@ -362,6 +369,11 @@
       </footer>
     </main>
 
-    </main>
+   
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
   </body>
 </html>

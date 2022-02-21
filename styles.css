@@ -562,6 +562,67 @@ footer p {
   }
 
   @media only screen and (max-width: 615px) {
+    .navbar-nav .nav-link {
+      padding: 5px;
+      font-size: 10px;
+    }
+
+    .about-me-hero h1 {
+      margin: 3rem 2rem;
+      font-size: 2rem;
+      padding-top: 5rem;
+    }
+
+    .about h5 {
+      font-size: 1.3rem;
+    }
+
+    .card {
+      width: 250px;
+      height: 370px;
+    }
+
+    .about-content {
+      height: 75px;
+    }
+
+    .about-content h5 {
+      font-size: 1rem;
+    }
+
+    .about-tech .icons .tech-icons {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 40px;
+      width: 40px;
+      padding: 5px;
+    }
+
+    .skills-section {
+      height: 100%;
+      flex-direction: row;
+    }
+
+    .tech-skills {
+      width: 75%;
+    }
+
+    .skills-tech-icons {
+      display: flex;
+      /* flex-direction: column; */
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      padding: 1rem;
+      height: 100%;
+    }
+
+    .skills-tech-icons img {
+      height: 100px;
+      width: 100px;
+      padding: 1rem;
+    }
     .form-container {
       width: 100%;
     }

@@ -5,11 +5,251 @@
     <link rel="icon" href="" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+      <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="styles.css" />
     <script defer src="app.js"></script>
     <title>Kevin Miller</title>
   </head>
-  <body>
-    <h1>Kevin Portfolio</h1>
+
+  <body id="home">
+    <!-- Navbar -->
+    <header class="hero">
+      <div class="nav-bar top" id="navbar">
+        <div class="nav-container" id="navbar">
+          <nav class="navbar navbar-expand-lg navbar-dark">
+            <a class="navbar-brand" href="#">KM</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav">
+                <a class="nav-item nav-link" href="#about">About</a>
+                <a class="nav-item nav-link" href="#projects">Projects</a>
+                <a class="nav-item nav-link" href="#skills">Skills</a>
+                <a class="nav-item nav-link" href="#contact">Contact</a>
+                <a href="">
+                <button id="'resume" class="btn">Download Resume</button></a>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </div>
+  
+      <!-- Landing Page/Intro Section -->
+          <div class="about-me-hero">
+            <h1>Kevin Miller</h1>
+                <div class="card about-me">
+                    <div class="overlay">
+                        <div class="about-content">
+                          <h5>Front end software engineer</h5>
+                          <div class="about-tech">
+                              <ul class="icons">
+                                  <li><img src='./images/technologies/html.png' alt='html icon' class='tech-icons'/></li>
+                                  <li><img src='./images/technologies/css.png' alt='css icon' class='tech-icons' /></li>
+                                  <li><img src='./images/technologies/js.png' alt='javascript icon' class='tech-icons'/></li>
+                                  <li><img src='./images/technologies/react.png' alt='react icon' class='tech-icons'/></li>
+                              </ul>
+                          </div>
+                        </div>
+                    </div>
+              </div>
+            <div class="about">
+              <h5>Software engineer focusing on building things for the web with React
+              </h5>
+            </div>
+        </div>
+    </header>
+    
+    <!-- Summary -->
+    <section id="about" class="bg-light summary">
+        <div class="summary">
+            <h2 class="summary-header">About Me</h2>
+            <p>
+                As a software engineer, I help companies find technical solutions to maximize their potential. I apply my former experience in technical sales and management at thriving software startups to find creative solutions to complex problems. My intellectual curiosity and willingness to learn from others has helped me while working on collaborative projects across teams and regions.
+               </p>
+            </div>
+                
+    </section>
+
+      <!-- Projects -->
+      <section id="projects" class="projects">
+          <div class="project-header">
+              <h2>Projects</h2>
+          </div>
+
+         <div class="all-projects">
+            <div class="project-info">
+                  <div class="project-image">
+                      <a href="https://kevin-c-miller.github.io/pro-basketball-rolodex/"  target="_blank"
+                      rel="noopener noreferrer">
+                      <img src="./images/pro-bball-img.png" alt="project" /></a>
+                  </div>
+
+                  <div class="project-description">
+                      <a href="https://github.com/Kevin-c-miller/pro-basketball-rolodex" target="_blank"
+                      rel="noopener noreferrer">
+                          <h3>Pro-Basketball-Rolodex</h3>
+                      </a>
+                      <p>First project I made as part of General Assembly's Software Engineering Immersive course. This is a website where you can search and find information and up to date stats on NBA players</p>
+                        <ul>
+                          <li>HTML</li>
+                          <li>CSS</li>
+                          <li>JavaScript</li>
+                          <li>balldontlie API</li>
+                        </ul>
+                  </div>
+              </div>
+
+              <div class="project-info">
+                  <div class="project-description">
+                      <a href="https://github.com/Kevin-c-miller/the-planets" target="_blank"
+                      rel="noopener noreferrer">
+                          <h3>Space and the Planets</h3>
+                      </a>
+                      <p>A website to find easy to understand information regarding the planets of the solar system and about space as a whole</p>
+                      <ul>
+                              <li>React</li>
+                              <li>CSS/Bootstrap</li>
+                              <li>Airtable as API</li>
+                      </ul>
+                  </div>
+                  <div class="project-image">
+                      <a href="https://space-and-the-planets.netlify.app/" target="_blank"
+                      rel="noopener noreferrer">
+                          <img src="./images/the-planets.png" alt="project" />
+                      </a>
+                  </div>
+              </div>
+          
+            <div class="project-info">
+              <div class="project-image">
+                  <a href="https://hungry-borg-6b9f04.netlify.app/" target="_blank"
+                  rel="noopener noreferrer">
+                      <img src="./images//volunteer.png" alt="project" />
+                  </a>
+              </div>
+              <div class="project-description">
+                  <a href="#" target="_blank"
+                  rel="noopener noreferrer">
+                      <h3>VolunteerApp</h3>
+                  </a>
+                  <p>Group project made by myself and 2 classmates. A website for non-profits to post events where volunteers are needed and volunteers can sign up for those events</p>
+                  <div class="volunteer-div">
+                      <div class="div-flex">
+                          <h6>My Contributions</h6>
+                          <ul>
+                              <li>Homepage <span class="contributions"> (Content, Styling, and Logic)</span></li>
+                              <li>Login pages <span class="contributions">(Content, Styling and Logic)</span></li>
+                              <li>Navbar <span class="contributions">(Content, Styling and Logic)</span></li>
+                              <li>Footer <span class="contributions">(Content, Styling and Logic)</span></li>
+                              <li>All Posts Page <span class="contributions">(Logic)</span></li>
+                              <li>Account and User Page <span class="contributions">(Button styling, Delete button logic)</span></li>
+                              <li>404 Page</li>
+                          </ul>
+                      </div>
+                      <div class="div-flex">
+                          <h6>Technologies</h6>
+                          <ul>
+                              <li>React</li>
+                              <li>NodeJs</li>
+                              <li>ExpressJS</li>
+                              <li>Bootstrap/CSS</li>
+                              <li>MongoDB</li>
+                          </ul>
+                      </div>
+                  </div>
+              </div>
+            </div>
+
+              <!-- <div class="project-info">
+                  <div class="project-description">
+                      <a href="https://movies-towatch-list.netlify.app/" target="_blank"
+                      rel="noopener noreferrer">
+                          <h3> Movie-WatchList</h3>
+                      </a>
+                      <ul>
+                          <li>React</li>
+                          <li>CSS</li>
+                          <li>Bootstrap</li>
+                          <li>Ruby</li>
+                          <li>Rails</li>
+                          <li>SQLite</li>
+                      </ul>
+                  </div>
+                  <div class="project-image">
+                      <a href="#" target="_blank"
+                      rel="noopener noreferrer">
+                          <img src="" alt="placeholder" />
+                      </a>
+                  </div>
+              </div> -->
+          </div>
+      </section>
+
+      <!-- Skills -->
+      <section id="skills" class="icons bg-light skills-section">
+        <div class="tech-skills">
+            <h2>Skills</h2>
+          <div class="skills-bg">
+            <div class='skills-tech-icons'>
+              <img src="./images/technologies/html.png" alt="HTML logo" />
+              <img src="./images/technologies/css.png" alt="CSS logo" />
+              <img src="./images/technologies/js.png" alt=" JavaScript logo" />
+              <img src="./images/technologies/react.png" alt="React logo" />
+              <img src="./images/technologies/node.png" alt=" nodeJS logo" />
+              <img src="./images/technologies/express.png" alt=" ExpressJS logo" />
+              <img src="./images/technologies/psql.png" alt="PostgresQL logo" />
+              <img src="./images/technologies/mongodb.png" alt=" MongoDB logo" />
+              <img src="./images/technologies/sqlite.png" alt="sqlite logo" />
+              <img src="./images/technologies/ruby.png" alt="Ruby logo" />
+              <img src="./images/technologies/rails.png" alt="Rails logo" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+       <!-- contact -->
+       <section id="contact" class="contact">
+            <div class="form-container">
+              <h2>Contact Me</h2>
+              <form action="mailto:kevinmiller3791@gmail.com" method='post' class="contact-form" enctype="text/plain">
+                <input type="submit" value="Send Email" name='submit' id="submit" class="btn"></input>
+              </form> 
+            </div>
+
+            <div class="button-to-top">
+              <a href="#home">
+                <button id="back-to-top"  class='btn'>Top ^</button>
+             </a>
+            </div>
+      </section>
+
+      <!-- Footer -->
+      <footer class="footer">
+        <div class="social">
+          <a href="https://github.com/Kevin-c-miller" target="_blank"
+          rel="noopener noreferrer">
+              <img src="./images/social/github.png" alt="github icon">
+          </a>
+          <a href="https://www.linkedin.com/in/kevin-c-miller/" target="_blank"
+          rel="noopener noreferrer">
+              <img src="./images/social/linkedin.png" alt="linkedin icon">
+            </a>
+        </div>
+        <p>Copyright &copy; 2022 - Kevin Miller</p>
+      </footer>
+    </main>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
   </body>
 </html>

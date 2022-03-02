@@ -393,68 +393,14 @@ a {
   padding: 1rem;
 }
 
-/* Experience */
-.experience-section {
-  min-height: 100vh;
-}
-
-.experience-section h2 {
-  color: #57e0d3;
-  text-align: center;
-  margin: 30px;
-}
-
-.exp-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 10px;
-  color: #000;
-}
-
-.column-1 {
-  display: flex;
-  flex-direction: column;
-  padding: 30px;
-  width: 75%;
-  max-width: 900px;
-  margin: 0 20px;
-  text-align: center;
-}
-.column-1 h4 {
-  color: #57e0d3;
-  padding: 10px;
-  text-align: center;
-}
-
-.education-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.edu-section {
-  width: 60%;
-  color: #000;
-  border-radius: 10px;
-  border: 4px solid #57e0d3;
-}
-
-.school {
-  border-top: 2px solid #57e0d3;
-  padding: 10px;
-}
-
 /* contact */
 .contact {
-  padding: 30px;
+  padding: 30px 30px 10px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 70vh;
+  height: 40vh;
 }
 
 .form-container {
@@ -467,7 +413,7 @@ a {
 }
 
 .contact h2 {
-  color: #000;
+  color: #57e0d3;
   font-weight: bold;
   margin-bottom: 15px;
   display: flex;
@@ -476,7 +422,7 @@ a {
 }
 
 .contact-form {
-  width: 90%;
+  width: 50%;
   padding: 20px 0;
   border: 5px solid #57e0d3;
   display: flex;
@@ -490,31 +436,44 @@ a {
   margin-bottom: 5px;
 }
 
-.contact-form .form-control {
-  margin-bottom: 15px;
-}
-
 .contact-form input {
-  width: 95%;
+  width: 30%;
   padding: 4px;
   height: 40px;
   border: #0a1930 1px solid;
 }
 
-textarea {
-  width: 95%;
-  height: 150px;
-  border: #0a1930 1px solid;
-}
-
 #submit {
-  color: #57e0d3 !important;
-  width: 50%;
+  color: #fff !important;
+  width: 100px;
   background: #0a1930;
   border: 3px solid #57e0d3 !important;
 }
 
+.button-to-top {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#back-to-top {
+  padding: 5px;
+  border-radius: 50%;
+  margin: 2rem auto 1rem;
+  color: #fff;
+  background: #0a1930;
+  border: 4px solid #57e0d3;
+}
+
 /* footer */
+
+.footer {
+  border-top: 2px solid #57e0d3;
+  box-shadow: 0 10px 10px rgb(38, 48, 80);
+  -webkit-box-shadow: 0 -10px 10px rgb(38, 48, 80);
+  -moz-box-shadow: 0 -10px 10px rgb(38, 48, 80);
+}
+
 footer p {
   color: #57e0d3;
   background: #0a1930;

@@ -266,7 +266,6 @@ a {
 .all-projects {
   display: flex;
   flex-direction: column;
-  padding-bottom: 20px;
 }
 
 .project-info {
@@ -311,7 +310,8 @@ a {
   opacity: 0.7;
 }
 
-.project-description h3 {
+.project-description h3,
+h6 {
   color: #57e0d3;
 }
 
@@ -352,7 +352,6 @@ a {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 2rem auto;
 }
 
 .skills-section h3 {

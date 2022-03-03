@@ -441,6 +441,10 @@ h6 {
   font-weight: bold;
 }
 
+.email-div h6 {
+  color: #0a1930;
+}
+
 .contact-info .contact-btn {
   margin: 10px;
   background: #0a1930;

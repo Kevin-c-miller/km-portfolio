@@ -2,7 +2,9 @@ const navbar = document.getElementById('navbar');
 const email = document.getElementById('modal-email');
 const emailBtn = document.querySelector('.email-btn');
 const emailDiv = document.querySelector('.email-div');
+const resume = document.querySelector('.resume');
 
+// navbar staying at top of page onscroll
 let scrolled = false;
 
 window.onscroll = function () {
@@ -20,10 +22,20 @@ window.onscroll = function () {
   }
 };
 
+// showing email address in modal on click
 const showEmail = (e) => {
   e.preventDefault();
   emailDiv.style.display = 'block';
-  emailDiv.style.textAlign = 'center';
 };
 
+// download resume
+const downloadResume = (e) => {
+  e.preventDefault();
+  window.open('./assets/resume/KevinMillerResume.pdf');
+};
+
+// event listener for email
 emailBtn.addEventListener('click', showEmail);
+
+// event listener for resume
+resume.addEventListener('click', downloadResume);

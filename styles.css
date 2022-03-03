@@ -167,9 +167,6 @@ a {
   flex-direction: row;
   align-items: center;
   justify-content: center;
-}
-
-.about-tech .icons {
   padding: 0;
 }
 
@@ -180,6 +177,12 @@ a {
   height: 60px;
   width: 60px;
   padding: 10px;
+  transition: transform 225ms;
+}
+
+.about-tech .icons .tech-icons:hover {
+  transform: scale(1.3);
+  transform: translateY(-10px);
 }
 
 .about-name {

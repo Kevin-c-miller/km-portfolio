@@ -1,4 +1,7 @@
 const navbar = document.getElementById('navbar');
+const email = document.getElementById('modal-email');
+const emailBtn = document.querySelector('.email-btn');
+const emailDiv = document.querySelector('.email-div');
 
 let scrolled = false;
 
@@ -16,3 +19,11 @@ window.onscroll = function () {
     scrolled = false;
   }
 };
+
+const showEmail = (e) => {
+  e.preventDefault();
+  emailDiv.style.display = 'block';
+  emailDiv.style.textAlign = 'center';
+};
+
+emailBtn.addEventListener('click', showEmail);

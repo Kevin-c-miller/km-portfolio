@@ -133,7 +133,7 @@ a {
   width: 300px;
   height: 420px;
   box-shadow: 0 5px 10pc rgba(0, 0, 0, 0.2);
-  background: url('../images/km.jpeg') center / cover;
+  background: url('../assets/images/km.jpeg') center / cover;
   overflow: hidden;
   border-radius: 10px;
   border: 2px solid #57e0d3;
@@ -395,12 +395,12 @@ a {
 
 /* contact */
 .contact {
-  padding: 30px 30px 10px;
+  padding: 2.5rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 40vh;
+  height: 35vh;
 }
 
 .form-container {
@@ -410,6 +410,7 @@ a {
   justify-content: center;
   margin: 1rem 10rem;
   width: 35rem;
+  padding: 1rem;
 }
 
 .contact h2 {
@@ -419,35 +420,38 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
+  padding: 2rem;
 }
 
-.contact-form {
-  width: 50%;
-  padding: 20px 0;
-  border: 5px solid #57e0d3;
+.contact-info {
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-.contact-form label {
-  display: block;
-  margin-bottom: 5px;
+.modal-title {
+  color: #0a1930;
+  font-weight: bold;
 }
 
-.contact-form input {
-  width: 30%;
-  padding: 4px;
-  height: 40px;
-  border: #0a1930 1px solid;
+.email-div {
+  display: none;
+  text-align: center;
+  color: #0a1930;
+  padding: 20px;
 }
 
-#submit {
-  color: #fff !important;
-  width: 100px;
+.contact-info .contact-btn {
+  margin: 10px;
   background: #0a1930;
-  border: 3px solid #57e0d3 !important;
+  color: #fff;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.contact-info .contact-btn:hover {
+  opacity: 0.8;
+  transform: scale(1.1);
 }
 
 .button-to-top {
@@ -472,6 +476,7 @@ a {
   box-shadow: 0 10px 10px rgb(38, 48, 80);
   -webkit-box-shadow: 0 -10px 10px rgb(38, 48, 80);
   -moz-box-shadow: 0 -10px 10px rgb(38, 48, 80);
+  padding-top: 30px;
 }
 
 footer p {

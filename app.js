@@ -1,7 +1,10 @@
 const navbar = document.getElementById('navbar');
+const dots = document.getElementById('dots');
+const more = document.getElementById('more');
+const textBtn = document.getElementById('readMoreBtn');
 const email = document.getElementById('modal-email');
-const emailBtn = document.querySelector('.email-btn');
-const emailDiv = document.querySelector('.email-div');
+const contactBtn = document.querySelector('.contact-btn');
+const contactDiv = document.querySelector('.contact-div');
 const resume = document.querySelector('.resume');
 
 // navbar staying at top of page onscroll
@@ -22,10 +25,23 @@ window.onscroll = function () {
   }
 };
 
+//  read more in projects section
+const readMoreText = () => {
+  if (dots.style.display === 'none') {
+    dots.style.display = 'inline';
+    textBtn.innerHTML = 'Read more';
+    more.style.display = 'none';
+  } else {
+    dots.style.display = 'none';
+    textBtn.innerHTML = 'Read less';
+    more.style.display = 'inline';
+  }
+};
+
 // showing email address in modal on click
-const showEmail = (e) => {
-  e.preventDefault();
-  emailDiv.style.display = 'block';
+const showContact = () => {
+  contactDiv.style.display = 'inline-block';
+  contactBtn.style.display = 'none';
 };
 
 // download resume
@@ -35,7 +51,7 @@ const downloadResume = (e) => {
 };
 
 // event listener for email
-emailBtn.addEventListener('click', showEmail);
+contactBtn.addEventListener('click', showContact);
 
 // event listener for resume
 resume.addEventListener('click', downloadResume);

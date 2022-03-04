@@ -19,10 +19,11 @@
     <title>Kevin Miller</title>
   </head>
 
-
   <body id="home">
+    <header>
+     
     <!-- Navbar -->
-    <header class="hero">
+    <div class="hero">
       <div class="nav-bar top" id="navbar">
         <div class="nav-container" id="navbar">
           <nav class="navbar navbar-expand-lg navbar-dark">
@@ -43,6 +44,7 @@
           </nav>
         </div>
       </div>
+   
   
       <!-- Landing Page/Intro Section -->
           <div class="about-me-hero">
@@ -67,14 +69,14 @@
               </h5>
             </div>
         </div>
-    </header>
-    
+    </div>
+  </header>
     <!-- Summary -->
     <section id="about" class="bg-light summary">
         <div class="summary">
             <h2 class="summary-header">About Me</h2>
             <p>
-                As a software engineer, I help companies find technical solutions to maximize their potential. I apply my former experience in technical sales and management at thriving software startups to find creative solutions to complex problems. My intellectual curiosity and willingness to learn from others has helped me while working on collaborative projects across teams and regions.
+                Highly motivated, hardworking software engineer. I help companies find technical solutions to maximize their potential. I began my career in software development after working at a software security company and becoming interested in how the applications work under the hood. I apply my former experience in technical sales and management at thriving global software startups to find creative solutions to complex problems. My intellectual curiosity and willingness to learn from others has helped me while working on collaborative projects across teams and regions.
                </p>
             </div>
                 
@@ -87,119 +89,137 @@
           </div>
 
          <div class="all-projects">
-            <div class="project-info">
-                  <div class="project-image">
-                      <a href="https://kevin-c-miller.github.io/pro-basketball-rolodex/"  target="_blank"
-                      rel="noopener noreferrer">
-                      <img src="./assets/images/pro-bball-img.png" alt="project" /></a>
-                  </div>
-
-                  <div class="project-description">
-                      <a href="https://github.com/Kevin-c-miller/pro-basketball-rolodex" target="_blank"
-                      rel="noopener noreferrer">
-                          <h3>Pro-Basketball-Rolodex</h3>
-                      </a>
-                      <p>First project I made as part of General Assembly's Software Engineering Immersive course. This is a website where you can search and find information and up to date stats on NBA players</p>
-                      <h6>Technologies</h6>
-                        <ul>
-                          <li>HTML</li>
-                          <li>CSS</li>
-                          <li>JavaScript</li>
-                          <li>balldontlie API</li>
-                        </ul>
-                  </div>
-              </div>
-
-              <div class="project-info">
-                  <div class="project-description">
-                      <a href="https://github.com/Kevin-c-miller/the-planets" target="_blank"
-                      rel="noopener noreferrer">
-                          <h3>Space and the Planets</h3>
-                      </a>
-                      <p>Projects 2 of General Assembly's  Software Engineering Immersive course. This is a website to find easy to understand information regarding the planets of the solar system and about space as a whole. User can also enter in their own submissions to the site.</p>
-                      <h6>Technologies</h6>
+            <div class="card project-card">
+                <a href="https://kevin-c-miller.github.io/pro-basketball-rolodex/"  target="_blank"
+                rel="noopener noreferrer">
+                <img class="card-img-top project-image" src="./assets/images/pro-bball-img.png" alt="pro basketball project" /></a>
+                <div class="card-body">
+                  <h5><a href="https://github.com/Kevin-c-miller/pro-basketball-rolodex" target="_blank"
+                    rel="noopener noreferrer">Pro-Basketball-Rolodex</h5></a>
+                  <p class="card-text">First project I made as part of General Assembly's Software Engineering Immersive course. This is a website where you can search and find information and up to date stats on NBA players</p>
+                  <h6>Technologies</h6>
+                  <div class="project-stack">
                       <ul>
-                              <li>React</li>
-                              <li>CSS/Bootstrap</li>
-                              <li>Airtable as API</li>
+                        <li>- HTML</li>
+                        <li>- CSS</li>
+                      </ul>
+                      <ul>
+                        <li>- JavaScript</li>
+                        <li>- balldontlie API</li>
                       </ul>
                   </div>
-                  <div class="project-image">
-                      <a href="https://space-and-the-planets.netlify.app/" target="_blank"
-                      rel="noopener noreferrer">
-                          <img src="./assets/images/the-planets.png" alt="project" />
-                      </a>
-                  </div>
-              </div>
-          
-            <div class="project-info">
-              <div class="project-image">
-                  <a href="https://hungry-borg-6b9f04.netlify.app/" target="_blank"
-                  rel="noopener noreferrer">
-                      <img src="./assets/images/volunteer.png" alt="project" />
-                  </a>
-              </div>
-              <div class="project-description">
-                  <a href="https://github.com/ImmanuelCurrah/VolunteerApp" target="_blank"
-                  rel="noopener noreferrer">
-                      <h3>VolunteerApp</h3>
-                  </a>
-                  <p>Group project made by myself and 2 classmates for General Assembly SEI course. A full stack application for non-profits to post events where volunteers are needed and volunteers can sign up for those events</p>
-                  <div class="volunteer-div">
-                      <div class="div-flex">
-                          <h6>My Contributions</h6>
-                          <ul>
-                              <li>Homepage <span class="contributions"> (Content, Styling, and Logic)</span></li>
-                              <li>Login pages <span class="contributions">(Content, Styling and Logic)</span></li>
-                              <li>Navbar <span class="contributions">(Content, Styling and Logic)</span></li>
-                              <li>Footer <span class="contributions">(Content, Styling and Logic)</span></li>
-                              <li>All Posts Page <span class="contributions">(Logic)</span></li>
-                              <li>Account and User Page <span class="contributions">(Button styling, Delete button logic)</span></li>
-                              <li>404 Page</li>
-                          </ul>
-                      </div>
-                      <div class="div-flex">
-                          <h6>Technologies</h6>
-                          <ul>
-                              <li>React</li>
-                              <li>NodeJs</li>
-                              <li>ExpressJS</li>
-                              <li>Bootstrap/CSS</li>
-                              <li>MongoDB</li>
-                          </ul>
-                      </div>
-                  </div>
+                </div>
+           </div>
+
+           <div class="card project-card">
+            <a href="https://space-and-the-planets.netlify.app/" target="_blank"  rel="noopener noreferrer">
+            <img class="card-img-top project-image" src="./assets/images/the-planets.png" alt="space and planets project" /></a>
+            <div class="card-body">
+              <h5><a href="https://github.com/Kevin-c-miller/the-planets" target="_blank"
+                rel="noopener noreferrer">Space and the Planets</h5></a>
+              <p class="card-text">Project 2 of General Assembly's  Software Engineering Immersive course. This is an app to find easy to understand information regarding the planets of the solar system and about space as a whole.User can also enter in their own submissions to the site.</p>
+              <h6>Technologies</h6>
+              <div class="project-stack">
+                  <ul>
+                    <li>- React</li>
+                    <li>- CSS</li>
+                  </ul>
+                  <ul>
+                    <li>- Bootstrap</li>
+                    <li>- Airtable API</li>
+                  </ul>
               </div>
             </div>
-
-               <div class="project-info">
-                  <div class="project-description">
-                      <a href="https://movies-towatch-list.netlify.app/" target="_blank"
-                      rel="noopener noreferrer">
-                          <h3> Movie-WatchList</h3>
-                      </a>
-                      <p>Final project as part of General Assembly's Software Engineering course. This is a full stack application built using Ruby/Rails backend and React frontend. The app lets users, once they register for an account, create a list of movies they want to watch. Once a movie is added to their own user list, they can also add in ratings and reviews for each movie.</p>
-                      <h6>Technologies</h6>
-
+       </div>
+       
+       <div class="card project-card">
+                <a href="https://hungry-borg-6b9f04.netlify.app/" target="_blank"
+                rel="noopener noreferrer">
+                <img class="card-img-top project-image" src="./assets/images/volunteer.png" alt="volunteerapp project screenshot"/></a>
+                <div class="card-body">
+                  <h5><a href="https://github.com/ImmanuelCurrah/VolunteerApp" target="_blank"
+                    rel="noopener noreferrer">VolunteerApp</h5></a>
+                  <p class="card-text">Group project made by myself and 2 classmates for General Assembly SEI course. A full stack application for non-profits to post events where volunteers are needed and volunteers can sign up for those event
+                  </p>
+                  <h6>Technologies</h6>
+                  <div class="project-stack">
                       <ul>
-                          <li>React</li>
-                          <li>CSS</li>
-                          <li>Bootstrap</li>
-                          <li>Ruby</li>
-                          <li>Rails</li>
-                          <li>SQLite</li>
-                          <li>OMDB API</li>
+                        <li>- React</li>
+                        <li>- CSS</li>
+                        <li>- Bootstrap</li>
                       </ul>
-                  </div>
-                  <div class="project-image">
-                      <a href="https://github.com/Kevin-c-miller/movie-watchlist" target="_blank"
-                      rel="noopener noreferrer">
-                          <img src="./assets/images/movie-db.png" alt="movie-db screenshot" />
-                      </a>
-                  </div>
-              </div> 
-          </div>
-      </section>
+                      <ul>
+                       <li>- Node.js</li>
+                       <li>- Express.js</li>
+                       <li>- MongoDB</li>
+                      </ul>
+                    </div>
+                    <div class="contribution-modal">
+                      <div class="project-modal-div">
+                        <button type="button" class="btn project-btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                          Project Contributions
+                        </button>
+                      </div>
+                      
+                      <!-- Modal -->
+                      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h6 class="modal-title" id="exampleModalLabel">What I worked on in this project</h6>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                              <h6>Frontend</h6>
+                              <ul>
+                                <li>Homepages | <span class="contributions"> Content, Styling, and Logic</span></li>
+                                <li>User/Business Login pages | <span class="contributions">Content, Styling, and Logic</span></li>
+                                <li>Navbar | <span class="contributions">Content, Styling, and Logic</span></li>
+                                <li>Footer | <span class="contributions">Content, Styling, and Logic</span></li>
+                                <li>All Posts Page | <span class="contributions">Logic</span></li>
+                                <li>User/Business Account Pages | <span class="contributions">Button styling, Delete button logic</span></li>
+                                <li>404 Page |  <span class="contributions">Content, Styling, Logic</span></li>
+                            </ul>
+                            </div>
+                            <div class="modal-footer">
+                              <button type="button" class="btn" data-bs-dismiss="modal">Close</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+           </div>
+          
+          <div class="card project-card">
+            <a href="https://movies-towatch-list.netlify.app/" target="_blank"  rel="noopener noreferrer">
+            <img class="card-img-top project-image" src="./assets/images/movie-db.png" alt="movie watch-list project" /></a>
+            <div class="card-body">
+              <h5><a href="https://github.com/Kevin-c-miller/movie-watchlist" target="_blank"
+                rel="noopener noreferrer">Movie-WatchList</h5></a>
+              <p class="card-text">Final project as part of General Assembly's Software Engineering course. This is a full stack application built using Ruby/Rails backend and React frontend. <span id="dots">...</span> <span id="more">The app lets users, once they register for an account, create a list of movies they want to watch. Once a movie is added to their own user list, they can also add in ratings and reviews for each movie.</span>
+                <button id="readMoreBtn" onclick="readMoreText()">Read More</button>
+              </p>
+              <h6>Technologies</h6>
+              <div class="project-stack">
+                  <ul>
+                    <li>- React</li>
+                    <li>- CSS</li>
+                    <li>- Bootstrap</li>
+                  </ul>
+                  <ul>
+                    <li>- Ruby</li>
+                    <li>- Rails</li>
+                    <li>- SQLite</li>
+                    <li>- OMDB API</li>
+                  </ul>
+              </div>
+            </div>
+       </div>
+      </div>
+
+    </div>
+  </section>
 
       <!-- Skills -->
       <section id="skills" class="icons bg-light skills-section">
@@ -225,47 +245,30 @@
 
        <!-- contact -->
        <section id="contact" class="contact">
-            <div class="form-container">
-              <h2>Contact Information</h2>
+          <div class="form-container">
+                <h2>Contact Information</h2>
 
-              <button type="button" class="btn " data-bs-toggle="modal" data-bs-target="#exampleModal">
-                Contact Me!
-              </button>
-              
-              <!-- Modal -->
-              <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                <div class="modal-dialog">
-                  <div class="modal-content">
-                    <div class="modal-header">
-                      <h5 class="modal-title" id="exampleModalLabel">Get in touch! </h5>
-                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div class="modal-body">
-                      <div class="contact-info">
-                        <a href="https://www.linkedin.com/in/kevin-c-miller/" target="_blank" rel="noopener noreferrer">
-                        <button class="contact-btn" id="'linkedin">LinkedIn</button>
-                      </a>
-                      <a href="https://github.com/Kevin-c-miller" target="_blank" rel="noopener noreferrer">
-                        <button class="contact-btn" id="github">GitHub</button>
-                      </a>
-                          <button class="contact-btn email-btn" id="'modal-email">
-                            Email
-                          </button>
-                    </div> 
-                    <div class="email-div"><h6>kevinmiller3791@gmail.com</h6></div>
-                    </div>
-                    <div class="modal-footer">
-                      <button class="contact-btn" data-bs-dismiss="modal">Close</button>
-                    </div>
-                  </div>
+                    <button class="btn contact-btn">
+                      Contact Me!
+                    </button>
+
+                  <div class="contact-div">
+                      <a href="https://www.linkedin.com/in/kevin-c-miller/" target="_blank" rel="noopener noreferrer">
+                    <button class="btn" id="'linkedin">LinkedIn</button> </a>
+
+                    <a href="https://github.com/Kevin-c-miller" target="_blank" rel="noopener noreferrer">
+                      <button class="btn" id="github">GitHub</button>
+                        </a>
+                          <h6><span class="email-header">Email:  </span>
+                          kevinmiller3791@gmail.com</h6> 
+                     </div>
+
+                <div class="button-to-top">
+                    <a href="#home">
+                    <button id="back-to-top"  class='btn'>Top ^</button>
+                    </a>
                 </div>
-              </div>
-
-            <div class="button-to-top">
-              <a href="#home">
-                <button id="back-to-top"  class='btn'>Top ^</button>
-             </a>
-            </div>
+          </div>
       </section>
 
       <!-- Footer -->

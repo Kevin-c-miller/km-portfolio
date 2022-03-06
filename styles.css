@@ -26,13 +26,13 @@ ul {
 }
 
 a {
-  color: #57e0d3;
+  color: #fff;
   text-decoration: none;
 }
 
 .btn {
   color: #fff !important;
-  border: 2px solid #57e0d3 !important;
+  border: 2px solid #a6f0ff !important;
   padding: 10px;
   border-radius: 10px;
   cursor: pointer;
@@ -76,7 +76,7 @@ a {
 }
 
 .navbar-dark .navbar-brand {
-  color: #57e0d3;
+  color: #a6f0ff;
 }
 
 .navbar-nav {
@@ -86,7 +86,7 @@ a {
 }
 
 .navbar-dark .navbar-nav .nav-link {
-  color: #57e0d3;
+  color: #a6f0ff;
   padding: 15px;
 }
 
@@ -101,7 +101,7 @@ a {
 }
 
 .navbar a:hover {
-  border-bottom: 2px solid #57e0d3 !important;
+  border-bottom: 2px solid #a6f0ff !important;
 }
 
 .navbar ul {
@@ -143,23 +143,23 @@ a {
   min-height: 100vh;
 }
 
-.about-me-hero h1 {
-  color: #57e0d3;
+.about-me-hero > h1 {
+  color: #a6f0ff;
   margin-bottom: 2rem;
   font-size: calc(2.5rem + 1.5vw);
   font-family: 'Eczar', serif;
 }
 
 .card {
-  /* position: relative; */
   width: 300px;
   height: 420px;
   box-shadow: 0 5px 10pc rgba(0, 0, 0, 0.2);
   background: url('../assets/images/km.jpeg') center / cover;
   overflow: hidden;
   border-radius: 10px;
-  border: 2px solid #57e0d3;
+  border: 2px solid #a6f0ff;
 }
+
 .overlay {
   /* position: absolute; */
   width: 100%;
@@ -249,7 +249,7 @@ a {
 }
 
 .about h5 {
-  color: #57e0d3;
+  color: #a6f0ff;
   padding: 0.5rem;
   margin-top: 30px;
   font-size: calc(1.1rem + 1.1vw);
@@ -285,7 +285,7 @@ a {
 
 .project-header h2 {
   text-align: center;
-  color: #57e0d3;
+  color: #a6f0ff;
 }
 
 .all-projects {
@@ -304,6 +304,7 @@ a {
 
 .project-card > .card-body {
   overflow: auto;
+  color: #a6f0ff;
 }
 
 .project-card h5,
@@ -339,7 +340,7 @@ h6 {
 .project-image {
   height: 250px;
   width: 300px;
-  border-bottom: 2px solid #57e0d3;
+  border-bottom: 2px solid #a6f0ff;
 }
 
 .projects img:hover {
@@ -380,9 +381,11 @@ h6 {
   justify-content: center;
   align-items: center;
 }
-.modal-body h6,
-li {
-  color: #57e0d3 !important;
+.modal-body > h6 {
+  color: #fff !important;
+}
+.modal-body > li {
+  color: #a6f0ff;
 }
 
 .modal-content {
@@ -472,7 +475,7 @@ li {
 }
 
 .contact h2 {
-  color: #57e0d3;
+  color: #a6f0ff;
   font-weight: bold;
   margin-bottom: 15px;
   display: flex;
@@ -501,7 +504,7 @@ li {
 }
 
 .contact-div h6 {
-  color: #57e0d3;
+  color: #a6f0ff;
   padding: 20px;
 }
 
@@ -534,13 +537,13 @@ li {
   margin: 2rem auto 1rem;
   color: #fff;
   background: #0a1930;
-  border: 4px solid #57e0d3;
+  border: 4px solid #a6f0ff;
 }
 
 /* footer */
 
 .footer {
-  border-top: 2px solid #57e0d3;
+  border-top: 2px solid #a6f0ff;
   box-shadow: 0 10px 10px rgb(38, 48, 80);
   -webkit-box-shadow: 0 -10px 10px rgb(38, 48, 80);
   -moz-box-shadow: 0 -10px 10px rgb(38, 48, 80);
@@ -548,7 +551,7 @@ li {
 }
 
 footer p {
-  color: #57e0d3;
+  color: #a6f0ff;
   background: #0a1930;
   padding: 20px;
   text-align: center;
@@ -566,7 +569,7 @@ footer p {
   width: 60px;
   background: #32507c;
   border-radius: 50%;
-  border: 2px solid #57e0d3;
+  border: 2px solid #a6f0ff;
   margin: 10px;
 }
 

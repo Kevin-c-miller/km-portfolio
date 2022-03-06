@@ -302,6 +302,10 @@ a {
   margin: 2rem;
 }
 
+.project-card > .card-body {
+  overflow: auto;
+}
+
 .project-card h5,
 h6 {
   text-align: center;

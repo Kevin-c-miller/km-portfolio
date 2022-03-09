@@ -461,17 +461,16 @@ h6 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 35vh;
+  height: 50vh;
 }
 
 .form-container {
+  margin: 1rem 10rem;
+  width: 35rem;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin: 1rem 10rem;
-  width: 35rem;
-  /* padding: 1rem; */
 }
 
 .contact h2 {
@@ -484,45 +483,23 @@ h6 {
   padding: 2rem;
 }
 
-.contact-info {
+.contact-form {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
   align-items: center;
+  justify-content: center;
 }
 
-.modal-title {
-  color: #0a1930;
-  font-weight: bold;
+.contact-form > input,
+.contact-form > textarea {
+  padding: 5px;
+  margin: 10px;
+  border-radius: 10px;
+  border: 2px solid #a6f0ff;
 }
 
 .contact-div {
   display: none;
-  text-align: center;
-  color: #0a1930;
-  padding: 20px;
-  font-weight: bold;
-}
-
-.contact-div h6 {
-  color: #a6f0ff;
-  padding: 20px;
-}
-
-.email-header {
-  color: #fff;
-}
-
-.contact-info .contact-btn {
-  margin: 10px;
-  background: #0a1930;
-  color: #fff;
-  padding: 10px;
-  border-radius: 10px;
-}
-
-.contact-info .contact-btn:hover {
-  opacity: 0.8;
-  transform: scale(1.1);
 }
 
 .button-to-top {

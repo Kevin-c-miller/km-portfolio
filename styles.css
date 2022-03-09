@@ -283,7 +283,7 @@ a {
   min-height: 100vh;
 }
 
-.project-header h2 {
+.project-header > h2 {
   text-align: center;
   color: #a6f0ff;
 }
@@ -356,7 +356,7 @@ h6 {
   margin: 0 20px;
 }
 
-.card-body h6 {
+.card-body > h6 {
   color: #fff;
 }
 
@@ -416,7 +416,7 @@ h6 {
   align-items: center;
 }
 
-.skills-section h3 {
+.skills-section > h3 {
   color: #000;
   font-size: 2rem;
 }
@@ -429,7 +429,7 @@ h6 {
   padding: 2rem 0;
 }
 
-.tech-skills h2 {
+.tech-skills > h2 {
   color: #000;
   margin-top: 20px;
   padding: 10px;
@@ -448,7 +448,7 @@ h6 {
   padding: 1rem;
 }
 
-.skills-tech-icons img {
+.skills-tech-icons > img {
   height: 100px;
   width: 100px;
   padding: 1rem;
@@ -473,7 +473,7 @@ h6 {
   justify-content: center;
 }
 
-.contact h2 {
+.form-container > h2 {
   color: #a6f0ff;
   font-weight: bold;
   margin-bottom: 15px;
@@ -527,7 +527,7 @@ h6 {
   padding-top: 30px;
 }
 
-footer p {
+footer > p {
   color: #a6f0ff;
   background: #0a1930;
   padding: 20px;
@@ -563,10 +563,10 @@ footer p {
     border: 0px;
   }
 
-  .about-me-hero h1 {
+  .about-me-hero > h1 {
     margin-top: 3rem auto;
   }
-  .about h5 {
+  .about > h5 {
     margin: 2rem;
   }
   .project-info {
@@ -656,7 +656,7 @@ footer p {
     }
 
     .contact {
-      height: 50vh;
+      height: 70vh;
     }
     .form-container {
       width: 100%;

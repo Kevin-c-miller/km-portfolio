@@ -113,6 +113,13 @@ a {
   margin-top: 3px;
 }
 
+.resume {
+  border: none !important;
+  color: #a6f0ff !important;
+  margin: 0 !important;
+  line-height: 1 !important;
+}
+
 /* Header */
 
 .hero {

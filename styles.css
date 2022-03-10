@@ -500,6 +500,14 @@ h6 {
 
 .contact-div {
   display: none;
+  margin: 10px;
+  border: 2px solid #a6f0ff;
+  border-radius: 10px;
+  padding: 1rem;
+}
+
+.contact-form > button {
+  margin: 5px;
 }
 
 .button-to-top {

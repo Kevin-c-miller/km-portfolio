@@ -348,6 +348,7 @@ h6 {
   height: 250px;
   width: 300px;
   border-bottom: 2px solid #a6f0ff;
+  object-fit: contain;
 }
 
 .projects img:hover {

@@ -287,6 +287,7 @@ a {
   padding: 15px 10px;
   max-width: 850px;
   font-family: 'Eczar', serif;
+  font-size: 20px;
 }
 
 /* Projects */
@@ -626,6 +627,10 @@ footer > p {
 
     .about h5 {
       font-size: 1.3rem;
+    }
+
+    .summary > p {
+      font-size: 14px;
     }
 
     .card {

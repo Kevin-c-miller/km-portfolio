@@ -297,6 +297,8 @@ a {
 .project-header > h2 {
   text-align: center;
   color: #a6f0ff;
+  font-family: 'Eczar', serif;
+  font-weight: bold;
 }
 
 .all-projects {
@@ -445,6 +447,8 @@ h6 {
   color: #000;
   margin-top: 20px;
   padding: 10px;
+  font-family: 'Eczar', serif;
+  font-weight: bold;
 }
 
 .skills-bg {
@@ -493,6 +497,8 @@ h6 {
   align-items: center;
   justify-content: center;
   padding: 2rem;
+  font-family: 'Eczar', serif;
+  font-weight: bold;
 }
 
 .contact-form {
@@ -552,6 +558,7 @@ footer > p {
   background: #0a1930;
   padding: 20px;
   text-align: center;
+  font-family: 'Eczar', serif;
 }
 
 .social {
